@@ -1,0 +1,43 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+//footer
+.footer {
+    background-color: $raisingBlack;
+    color: $white;
+    padding: 20px 5px;
+    &__container {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-rows: 1fr 20px 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 20px;
+    }
+    &__trade {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+.listDetails {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer__container .row {
+    grid-row-gap: 20px;
+}
+
+@include respond-to($bp-lg) {}

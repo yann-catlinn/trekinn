@@ -1,0 +1,35 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+/* COMPONENTS: BUTTONS================================================*/
+
+
+/* Base */
+
+.button {
+    padding: 1rem 4rem;
+    cursor: pointer;
+}
+
+
+/* Button Scheme */
+
+.button_primary {
+    border: none;
+    color: $white;
+    background-color: $ballBlue;
+    -webkit-transition: background-color 1s ease;
+    -o-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+    &:hover {
+        background-color: $blueLagoon;
+    }
+    &:focus {
+        background-color: $gray;
+    }
+}

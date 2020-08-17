@@ -1,0 +1,19 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+@include respond-to($bp-lg) {
+    body {
+        width: 100vw;
+    }
+    .contenedor {
+        /*div.contenedor has 100%, so we can get obtain the desired desktop view*/
+        width: 100%;
+        margin: 0 auto;
+    }
+}

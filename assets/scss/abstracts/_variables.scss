@@ -1,0 +1,56 @@
+//Google Font: Raleway (Bold, Regular)/ Open Sans (Regular)
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+//Color Scheme
+//First Color Scheme
+$white: #fff;
+$platinum: #e8e8e8;
+$gray: #bababa;
+//Second Color Scheme
+$darkSalmon: #ee9480;
+$melon: #f4baae;
+$palePink: #fadfda;
+//Third Color Scheme
+$ballBlue: #2ab7ca;
+$middleBlue: #77d1dd;
+$blueLagoon: #b1e4eb;
+//Fourth Color Scheme
+$onyx: #333745;
+$spanishGray: #8f9199;
+$lavenderGray: #c7c8cc;
+//Fifth Color Scheme
+$raisingBlack: #221d23;
+$nickel: #726f73;
+$silverChalice: #aeacaf;
+//Typefaces
+//Font Family
+$openSans: Open Sans,
+sans-serif;
+$raleway: Raleway,
+sans-serif;
+// Typography
+// Font weight
+$openSans-regular: 400;
+$raleway-regular: 400;
+$raleway-bold: 700;
+//Font Sizes
+$xxxxx-large: 50px;
+$xxxx-large: 45px;
+$xxx-large: 40px;
+$xx-large: 35px;
+$x-large: 30px;
+$large: 20px;
+$medium: 16px;
+$small: 14px;
+$x-small: 12px;
+//Media queries
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+$bp-sm:576px;
+// Medium devices (tablets, 768px and up)
+$bp-md:768px;
+// Large devices (desktops, 992px and up)
+$bp-lg:992px;
+// Extra large devices (large desktops, 1200px and up)
+$bp-xl:1200px;
+//

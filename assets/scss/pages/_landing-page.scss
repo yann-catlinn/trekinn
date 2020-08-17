@@ -1,0 +1,73 @@
+//header
+header object {
+    width: 100%;
+    height: auto;
+}
+
+.header__content {
+    line-height: 1.8;
+}
+
+//section "Características"
+.caracteristicas h2 {
+    padding: 20px 0;
+}
+
+.caracteristicas__body {
+    margin-top: 30px;
+}
+
+.caracteristicas__image {
+    background-image: url('../images/bar-graph.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 165px;
+    width: 100%;
+    animation: opacity 3s ease-in;
+    margin: 20px 0;
+}
+
+.caracteristicas__container {
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.caracteristicas__content {
+    line-height: 1.8;
+}
+
+.caracteristicas__subtitle {
+    padding: 10px 0;
+}
+
+//section "Precios"
+.precios {
+    background-image: url('../images/bg-price.png');
+    background-image: url('../images/bg-price.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.precios__content {
+    padding: 60px 0;
+}
+
+.precios h2 {
+    padding: 30px 0;
+    color: $white;
+}
+
+@include respond-to($bp-lg) {
+    //header
+    .header {
+        &__title {
+            line-height: initial;
+        }
+    }
+    //section "Precios"
+    .precios {
+        background-position: right;
+        padding-top: 25vh;
+    }
+}

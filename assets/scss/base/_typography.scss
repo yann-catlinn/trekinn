@@ -1,0 +1,114 @@
+//nav
+.navigation__item {
+    a {
+        font-family: $raleway;
+        font-weight: $raleway-bold;
+        font-size: $small;
+    }
+}
+
+//header
+h1 {
+    font-size: $xxx-large;
+    font-family: $raleway;
+    font-weight: $raleway-bold;
+    color: $raisingBlack;
+    margin: 20px 0;
+}
+
+.header__paragraph {
+    font-size: $medium;
+    font-family: $openSans;
+    font-weight: $openSans-regular;
+    color: $onyx;
+}
+
+//section
+h2 {
+    font-size: $x-large;
+    font-family: $raleway;
+    font-weight: $raleway-bold;
+    text-align: center;
+    color: $raisingBlack;
+}
+
+//section 'caracteristicas'
+.caracteristicas__subtitle {
+    font-size: $large;
+    font-family: $raleway;
+    font-weight: $raleway-bold;
+    color: $onyx;
+}
+
+.caracteristicas__paragraph {
+    font-size: $medium;
+    font-family: $openSans;
+    font-weight: $openSans-regular;
+    color: $onyx;
+}
+
+//section 'precios'
+//cards
+.card {
+    &__title {
+        font-family: $openSans;
+        font-weight: $openSans-regular;
+        font-size: $large;
+    }
+    &__price {
+        font-family: $raleway;
+        font-weight: $raleway-bold;
+        font-size: $xx-large;
+    }
+    &__button {
+        font-family: $raleway;
+        font-weight: $raleway-bold;
+        font-size: $medium;
+    }
+}
+
+.card__list {
+    font-family: $openSans;
+    font-weight: $openSans-regular;
+}
+
+//footer
+.footer {
+    font-family: $raleway;
+    font-weight: $raleway-regular;
+    font-size: $x-small;
+}
+
+@include respond-to($bp-lg) {
+    //nav
+    .navigation__item a {
+        font-weight: $raleway-regular;
+        font-size: $medium;
+    }
+    //header
+    h1 {
+        font-size: $xxxx-large;
+    }
+    //section
+    h2 {
+        font-size: $xxx-large;
+    }
+    //section 'caracteristicas'
+    .caracteristicas__subtitle {
+        font-size: $x-large;
+    }
+    //section 'precios'
+    //cards
+    .card {
+        &__title {
+            font-size: $x-large;
+        }
+        &__price {
+            font-size: $xxxx-large;
+        }
+    }
+    //footer
+    .footer {
+        font-size: $small;
+    }
+}
